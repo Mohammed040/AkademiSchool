@@ -1,0 +1,13 @@
+.app-container {
+  display: flex;
+}
+
+.main-content {
+  margin-left: 15vw;
+  /* Push content to the right of the sidebar */
+  width: 85vw;
+  color: black;
+  /* padding: 20px; */
+  background-color: #f4f4f4; /* Light background for content */
+  /* min-height: 100vh; */
+}

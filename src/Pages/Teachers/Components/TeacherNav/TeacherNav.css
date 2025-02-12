@@ -1,0 +1,61 @@
+.teachernav {
+    width: 100%;
+    padding: 10px 40px;
+    display: flex;
+    flex-direction: row; 
+    gap: 5px;
+}
+.search {
+    width: 50%;
+}
+
+.input-container {
+    position: relative;
+    width: 80%;
+}
+
+.search-icon {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 30px;
+    height: 30px;
+}
+
+.input-container input {
+    width: 100%;
+    padding: 10px 10px 10px 45px;
+    border-radius: 20px;
+    background-color: white;
+    border: 1px solid #ccc;
+}
+
+.nav-button {
+    width: 50%;
+    display: flex;
+    gap: 10px;
+    justify-content: flex-end; 
+}
+
+.nav-button button {
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    color: black;
+    padding: 10px 15px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    background-color: white;
+}
+
+.nav-button button:hover {
+    background-color: #e0e0e0;
+}
+
+.nav-button img {
+    width: 20%;
+}

@@ -1,0 +1,109 @@
+{
+    "teachers": [
+      {
+        "firstname": "Sudheer",
+        "lastname": "Kumar",
+        "subject": "Mathematics",
+        "photo": "src/Pages/Teachers/Components/TeacherList/assetss/boy.png",
+        "phone": "src/Pages/Teachers/Components/TeacherList/assetss/phone.png",
+        "message": "src/Pages/Teachers/Components/TeacherList/assetss/comment.png"
+      },
+      {
+        "firstname": "Ajay",
+        "lastname": "Kumar",
+        "subject": "Physics",
+        "photo": "src/Pages/Teachers/Components/TeacherList/assetss/boy.png",
+        "phone": "src/Pages/Teachers/Components/TeacherList/assetss/phone.png",
+        "message": "src/Pages/Teachers/Components/TeacherList/assetss/comment.png"
+      },
+      {
+        "firstname": "Shyam",
+        "lastname": "Baa",
+        "subject": "Chemistry",
+        "photo": "src/Pages/Teachers/Components/TeacherList/assetss/boy.png",
+        "phone": "src/Pages/Teachers/Components/TeacherList/assetss/phone.png",
+        "message": "src/Pages/Teachers/Components/TeacherList/assetss/comment.png"
+      },
+      {
+        "firstname": "Manoj",
+        "lastname": "Baa",
+        "subject": "Chemistry",
+        "photo": "src/Pages/Teachers/Components/TeacherList/assetss/boy.png",
+        "phone": "src/Pages/Teachers/Components/TeacherList/assetss/phone.png",
+        "message": "src/Pages/Teachers/Components/TeacherList/assetss/comment.png"
+      },
+      {
+        "firstname": "Teja",
+        "lastname": "Mam",
+        "subject": "Chemistry",
+        "photo": "src/Pages/Teachers/Components/TeacherList/assetss/girl.png",
+        "phone": "src/Pages/Teachers/Components/TeacherList/assetss/phone.png",
+        "message": "src/Pages/Teachers/Components/TeacherList/assetss/comment.png"
+      },
+      {
+        "firstname": "Teja",
+        "lastname": "Mam",
+        "subject": "Chemistry",
+        "photo": "src/Pages/Teachers/Components/TeacherList/assetss/girl.png",
+        "phone": "src/Pages/Teachers/Components/TeacherList/assetss/phone.png",
+        "message": "src/Pages/Teachers/Components/TeacherList/assetss/comment.png"
+      },
+      {
+        "firstname": "Teja",
+        "lastname": "Mam",
+        "subject": "Chemistry",
+        "photo": "src/Pages/Teachers/Components/TeacherList/assetss/girl.png",
+        "phone": "src/Pages/Teachers/Components/TeacherList/assetss/phone.png",
+        "message": "src/Pages/Teachers/Components/TeacherList/assetss/comment.png"
+      },
+      {
+        "firstname": "Teja",
+        "lastname": "Mam",
+        "subject": "Chemistry",
+        "photo": "src/Pages/Teachers/Components/TeacherList/assetss/girl.png",
+        "phone": "src/Pages/Teachers/Components/TeacherList/assetss/phone.png",
+        "message": "src/Pages/Teachers/Components/TeacherList/assetss/comment.png"
+      },
+      {
+        "firstname": "Teja",
+        "lastname": "Mam",
+        "subject": "Chemistry",
+        "photo": "src/Pages/Teachers/Components/TeacherList/assetss/girl.png",
+        "phone": "src/Pages/Teachers/Components/TeacherList/assetss/phone.png",
+        "message": "src/Pages/Teachers/Components/TeacherList/assetss/comment.png"
+      },
+      {
+        "firstname": "Teja",
+        "lastname": "Mam",
+        "subject": "Chemistry",
+        "photo": "src/Pages/Teachers/Components/TeacherList/assetss/girl.png",
+        "phone": "src/Pages/Teachers/Components/TeacherList/assetss/phone.png",
+        "message": "src/Pages/Teachers/Components/TeacherList/assetss/comment.png"
+      },
+      {
+        "firstname": "Teja",
+        "lastname": "Mam",
+        "subject": "Chemistry",
+        "photo": "src/Pages/Teachers/Components/TeacherList/assetss/girl.png",
+        "phone": "src/Pages/Teachers/Components/TeacherList/assetss/phone.png",
+        "message": "src/Pages/Teachers/Components/TeacherList/assetss/comment.png"
+      },
+      {
+        "firstname": "Teja",
+        "lastname": "Mam",
+        "subject": "Chemistry",
+        "photo": "src/Pages/Teachers/Components/TeacherList/assetss/girl.png",
+        "phone": "src/Pages/Teachers/Components/TeacherList/assetss/phone.png",
+        "message": "src/Pages/Teachers/Components/TeacherList/assetss/comment.png"
+      },
+      {
+        "firstname": "Teja",
+        "lastname": "Mam",
+        "subject": "Chemistry",
+        "photo": "src/Pages/Teachers/Components/TeacherList/assetss/girl.png",
+        "phone": "src/Pages/Teachers/Components/TeacherList/assetss/phone.png",
+        "message": "src/Pages/Teachers/Components/TeacherList/assetss/comment.png"
+      }
+    ]
+  }
+  

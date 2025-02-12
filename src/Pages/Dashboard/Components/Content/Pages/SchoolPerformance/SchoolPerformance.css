@@ -1,0 +1,44 @@
+
+
+.school-performance{
+    width: 100%;
+    margin-top: 50px;
+    background-color: white;
+    border-radius: 20px;
+}
+.school-performance-heading{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    /* padding-right: 30px; */
+
+}
+
+.school-performance .hint{
+    display: flex;
+    width: 20%;
+    justify-content: space-between;
+}
+.hint .legend{
+    display: flex;
+    gap: 5px;
+
+}
+
+.hint .legend p{
+  color : #A098AE
+}
+.hint .legend p b{
+    color: black;
+}
+.school-performance .chart{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+   padding-bottom: 50px;
+    
+}
+.school-performance .chart img{
+    width: 95%;
+    align-items: center;
+}

@@ -1,0 +1,72 @@
+.teacherpagination{
+    width: 100%;
+    display: flex;
+    padding: 10px 40px;
+
+}
+
+.teacherpagination h3{
+    width: 50%;
+}
+
+.teacherpages{
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 5px;
+}
+
+.teacherpages .leftarrow{
+    width: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.teacherpages .leftarrow img{
+    width: 20px;
+}
+
+.teacherpages .pageone{
+    width: 30px;
+    height: 30px;
+    background-color: wheat;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.teacherpages .pagetwo{
+    width: 30px;
+    height: 30px;
+    background-color: wheat;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.teacherpages .pagethree{
+    width: 30px;
+    height: 30px;
+    background-color: wheat;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+
+.teacherpages .rightarrow{
+    width: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.teacherpages .rightarrow img{
+    width: 30%;
+}
