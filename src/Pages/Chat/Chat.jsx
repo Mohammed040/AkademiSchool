@@ -1,14 +1,33 @@
 // import React from 'react'
-import { usePage } from "../../Components/Header/Header"
+import { useState } from "react";
+import { usePage } from "../../Components/Header/Header";
+import SearchComponent from "../Dashboard/Components/Content/SearchComponent";
+import RightMenuMenu from "../Dashboard/Components/RightMenu/pages/RightMenuMenu/RightMenuMenu";
+import "./Chat.css";
+import ChatSidebar from "./Pages/CharSidebar/ChatSidebar";
+import ChatWindow from "./Pages/ChatWindow/ChatWindow";
 
 const Chat = () => {
-  const {pageTitle} = usePage()
+  const { pageTitle } = usePage();
+  const [selectedChat, setSelectedChat] = useState(null);
   // console.log(pageTitle+"Chart dekho")
   return (
     <>
-      <h1>Welcome to {pageTitle}</h1>
-    </>
-  )
-}
+      <div className="chatNav">
+        <h1>{pageTitle}</h1>
+        <div className="chatNavRight">
+          <SearchComponent />
+          <RightMenuMenu />
+        </div>
+      </div>
+      <div className="chat-container">
+        {/* Sidebar for chat contacts */}
 
-export default Chat
+        <ChatSidebar onSelectChat={setSelectedChat} selectedChat={selectedChat} />
+        <ChatWindow selectedChat={selectedChat} />
+      </div>
+    </>
+  );
+};
+
+export default Chat;

@@ -5,11 +5,13 @@
     margin-top: 50px;
     background-color: white;
     border-radius: 20px;
+    
 }
 .school-performance-heading{
     display: flex;
     justify-content: space-between;
     padding: 30px;
+    color: #303972;
     /* padding-right: 30px; */
 
 }
@@ -19,17 +21,17 @@
     width: 20%;
     justify-content: space-between;
 }
-.hint .legend{
+.school-performance-heading .hint .legend{
     display: flex;
     gap: 5px;
 
 }
 
-.hint .legend p{
+.school-performance-heading .hint .legend p{
   color : #A098AE
 }
-.hint .legend p b{
-    color: black;
+.school-performance-heading .hint .legend p b{
+    color: #303972;
 }
 .school-performance .chart{
     width: 100%;

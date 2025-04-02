@@ -1,0 +1,75 @@
+.RightMenuContact-parent{
+    width: 100%;
+    /* border: 1px solid black; */
+    margin-top: 40px;
+}
+.RightMenuContact-parent .title-btn{
+    display: flex;
+    justify-content: space-between;
+}
+.RightMenuContact-parent .title h3{
+    color: #303972;
+}
+.RightMenuContact-parent .title p{
+    color: #A098AE;
+}
+.RightMenuContact-parent .btn{
+    width: 50px;
+    height: 50px;
+    background-color: #4D44B5;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.RightMenuContact-parent .btn p{
+    font-size: 30px;
+    /* text-align: center; */
+}
+
+
+.RightMenuContact-chat{
+    /* border: 1px solid black; */
+    margin: 30px auto;
+}
+.RightMenuContact-chat .o1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px auto;
+}
+
+.RightMenuContact-chat .o1 .profilePhoto{
+    width: 50px;
+    background-color: #C1BBEB;
+    border-radius: 50%;
+    height: 52px;
+}
+.RightMenuContact-chat .o1 .text b{
+    color: #303972;
+}
+.RightMenuContact-chat .o1 .text p{
+    color: #A098AE;
+}
+.RightMenuContact-chat .o1 .mail{
+    width: 50px;
+    height: 50px;
+    border: 2px solid #A098AE;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.RightMenuContent-btnViewMore{
+    width: 100%;
+    /* border: 1px solid black; */
+    padding: 15px;
+    font-size: 1.5rem;
+    color: #303972;
+    background-color: rgba(77, 68, 181, 0.1);
+    border-radius: 50px;
+    border: none;
+}

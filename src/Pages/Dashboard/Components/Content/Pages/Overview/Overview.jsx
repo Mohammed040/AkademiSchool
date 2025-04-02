@@ -9,38 +9,38 @@ const Overview = () => {
   return (
     <div className="overview-container">
       <div className="overview-content">
-        <div className="box" >
+        <div className="box">
           <div className="img-div" id="box-1">
-          <img src={student} alt="" />
+            <img src={student} alt="" />
           </div>
-          <div>
+          <div className="text-div">
             <p>Student</p>
             <h1>935</h1>
           </div>
         </div>
-        <div className="box" >
-        <div className="img-div" id="box-2">
-          <img src={teacher} alt="" />
+        <div className="box">
+          <div className="img-div" id="box-2">
+            <img src={teacher} alt="" />
           </div>
-          <div>
+          <div className="text-div">
             <p>Teacher</p>
             <h1>56</h1>
           </div>
         </div>
-        <div className="box" >
-        <div className="img-div" id="box-3">
-          <img src={calendar} alt="" />
+        <div className="box">
+          <div className="img-div" id="box-3">
+            <img src={calendar} alt="" />
           </div>
-          <div>
+          <div className="text-div">
             <p>Event</p>
             <h1>40</h1>
           </div>
         </div>
-        <div className="box" >
-        <div className="img-div" id="box-4">
-          <img src={food} alt="" />
+        <div className="box">
+          <div className="img-div" id="box-4">
+            <img src={food} alt="" />
           </div>
-          <div>
+          <div className="text-div">
             <p>Food</p>
             <h1>32k</h1>
           </div>

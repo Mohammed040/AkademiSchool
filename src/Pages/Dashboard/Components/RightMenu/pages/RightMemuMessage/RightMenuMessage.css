@@ -1,0 +1,55 @@
+.rightMenuMessage-parent{
+    width: 100%;
+    /* border: 1px solid black; */
+    margin-top: 40px;
+}
+
+.rightMenuMessage-title h3{
+    color: #303972;
+}
+
+
+
+
+.rightMenuMessage-chat{
+    /* border: 1px solid black; */
+    margin: 30px auto;
+}
+ .rightMenuMessage-o1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px auto;
+    padding-bottom: 15px;
+    border-bottom: 1.5px solid #C1BBEB;
+}
+
+ .rightMenuMessage-profilePhoto{
+    width: 50px;
+    height: 50px;
+    background-color: #C1BBEB;
+    border-radius: 50%;
+    height: 52px;
+}
+.rightMenuMessage-head{
+    display: flex;
+    justify-content: space-between;
+}
+.rightMenuMessage-text b{
+    color: #303972;
+}
+ .rightMenuMessage-text p{
+    color: #A098AE;
+}
+
+
+.rightMenuMessage-btnViewMore{
+    width: 100%;
+    /* border: 1px solid black; */
+    padding: 15px;
+    font-size: 1.5rem;
+    color: #303972;
+    background-color: rgba(77, 68, 181, 0.1);
+    border-radius: 50px;
+    border: none;
+}

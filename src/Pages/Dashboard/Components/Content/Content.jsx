@@ -2,8 +2,12 @@
 import "./Content.css";
 import Overview from "./Pages/Overview/Overview";
 import SchoolPerformance from "./Pages/SchoolPerformance/SchoolPerformance";
-import searchBar from "./assetss/Search.png";
+
 import { usePage } from "../../../../Components/Header/Header";
+import SchoolCalender from "./Pages/SchoolCalender/SchoolCalender";
+import SchoolFinance from "./Pages/SchoolFinance/SchoolFinance";
+import SearchComponent from "./SearchComponent";
+import UnpaidStudent from "./Pages/UnpaidStudent/UnpaidStudent";
 
 const Content = () => {
   const { pageTitle } = usePage();
@@ -11,14 +15,17 @@ const Content = () => {
     <div className="dashboard-content">
       <div className="content-navbar">
         <h1 className="content-logo">{pageTitle}</h1>
-        <div className="search-bar">
-          <img src={searchBar} alt="ja slkdfl" />
-          <input type="text" placeholder="Search here..." name="" id="" />
-        </div>
+        <SearchComponent/>
       </div>
       <div>
         <Overview />
         <SchoolPerformance />
+        <div className="school-calender-finance">
+        <SchoolCalender/>
+        <SchoolFinance/>
+        
+        </div>
+        <UnpaidStudent/>
       </div>
     </div>
   );

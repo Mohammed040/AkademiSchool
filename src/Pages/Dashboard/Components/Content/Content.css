@@ -1,26 +1,17 @@
-
+.dashboard-content{
+    width: 100%;
+}
 .content-navbar{
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-top: 10px;
-}
-.dashboard-content .search-bar{
-    display: flex;
-    padding: 10px;
-    padding-right: 30px;
-    background-color: white;
-    border-radius: 50px;
-    gap: 5px;
-}
-.dashboard-content .search-bar input{
-    border: none;
-    background: none;
-    outline: none;
-    font-size: 1rem;
-}
-.dashboard-content .search-bar img{
-    width: 30px;
-    cursor: pointer;
+    color: #303972;
 }
 
+
+.school-calender-finance{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}

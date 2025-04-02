@@ -23,13 +23,19 @@
     width: 20%;
     gap: 30px;
 }
-.overview-content .box div{
+.overview-content .box p{
+    color: #A098AE;
+}
+.overview-content .box .text-div{
     width: 40%;
+    /* border: 1px solid black; */
+    color: #303972;
 }
 
-.img-div{
+.overview-content .img-div{
     background-color: lightblue;
-    width: 100%;
+    width: 60px;
+    height: 60px;
     display: flex;
     justify-content: center;
     align-items: center;

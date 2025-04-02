@@ -1,11 +1,20 @@
 // import React from 'react'
+import RightMenuMessage from "./pages/RightMemuMessage/RightMenuMessage"
+import RightMenuContact from "./pages/RightMenuContact/RightMenuContact"
+import RightMenuFoodMenu from "./pages/RightMenuFoodMenu/RightMenuFoodMenu"
+import RightMenuMenu from "./pages/RightMenuMenu/RightMenuMenu"
+import "./RightMenu.css"
 
 const RightMenu = () => {
   return (
-    <div>
-      <h1>Welcome to Right Menu componenet of dashboard.</h1>
-    </div>
+    <>
+      <RightMenuMenu/>
+      <RightMenuContact/>
+      <RightMenuMessage/>
+      <RightMenuFoodMenu/>
+    </>
   )
 }
 
 export default RightMenu
+  

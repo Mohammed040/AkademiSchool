@@ -1,0 +1,115 @@
+.chat-box {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  background: white;
+  border-radius: 20px;
+  /* height: 85vh; */
+  padding: 20px;
+}
+
+/* 🔹 Header section with profile name & status */
+.chat-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.chat-header .profile {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.chat-header .profile img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.chat-header .profile .user-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.chat-header .profile .user-info h2 {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.chat-header .profile .user-info p {
+  font-size: 12px;
+  color: #6b7280;
+}
+
+/* 🔹 Messages container */
+.chat-messages {
+  flex-grow: 1;
+  overflow-y: auto;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+/* 🔹 Message bubbles */
+.message {
+  max-width: 60%;
+  padding: 10px 15px;
+  border-radius: 15px;
+  font-size: 14px;
+  display: flex;
+  flex-direction: column;
+}
+
+.received {
+  background: #f3f4f6;
+  align-self: flex-start;
+}
+
+.sent {
+  background: #5a3ec8;
+  color: white;
+  align-self: flex-end;
+}
+
+.message .time {
+  font-size: 10px;
+  text-align: right;
+  margin-top: 5px;
+  opacity: 0.6;
+}
+
+/* 🔹 Input field */
+.chat-aainput {
+  display: flex;
+  align-items: center;
+  /* background: #f8f8ff; */
+  background-color: white;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.chat-aainput input {
+  flex-grow: 1;
+  padding: 10px;
+  /* border: none; */
+  border-radius: 10px;
+  color: black;
+  background: white;
+  
+  /* outline: none; */
+
+}
+
+.chat-aainput button {
+  background: #5a3ec8;
+  color: white;
+  border: none;
+  padding: 10px 12px;
+  border-radius: 10px;
+  margin-left: 10px;
+  cursor: pointer;
+}
