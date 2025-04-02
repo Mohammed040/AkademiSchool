@@ -1,0 +1,50 @@
+.dashboard-school-finance {
+  width: 48%;
+  background-color: white;
+  /* border: 1px solid black; */
+  color: #303972;
+  
+  border-radius: 20px;
+  /* display: flex; */
+  /* align-items: center; */
+  /* justify-content: space-between; */
+}
+
+.dashboard-school-finance-par{
+    display: flex;
+    margin: 20px 50px;
+    justify-content: space-between;
+    /* border: 1px solid black; */
+}
+
+.dashboard-school-finance-hint {
+  /* border: 1px solid black; */
+  width: 47%;
+  display: flex;
+  justify-content: space-between;
+  /* height: 80px; */
+}
+
+.dashboard-school-finance-legend {
+  display: flex;
+  justify-content: space-between;
+  gap: 5px;
+}
+.dashboard-school-finance-legend p {
+  color: #a098ae;
+}
+
+.dashboard-school-finance-legend p b {
+  color: #303972;
+}
+
+.dashboard-school-finance-charts{
+    margin: 10px auto;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.dashboard-school-finance-charts img{
+    width: 100%;
+}

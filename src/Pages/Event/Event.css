@@ -1,0 +1,27 @@
+
+
+
+
+.eventNavbar{
+    display: flex;
+    /* border: 1px solid black;  */
+    /* margin-top:20px ;
+    margin-bottom: 20px; */
+    padding: 20px 20px 20px 40px;
+    width: 100%;
+    justify-content: space-between;
+}
+.eventNavbar h1{
+    color: #303972;
+    /* margin-left: 30px; */
+}
+.eventSearchMenu{
+    display: flex;
+    /* border: 1px solid black; */
+    /* justify-content: space-between; */
+    gap: 20px;
+}
+.calenderSchedule{
+    display: flex;
+    
+}

@@ -1,0 +1,124 @@
+/* General Styles */
+.schedule-container {
+    width: 25%;
+    background: #ffffff;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Header */
+  .schedule-header {
+    text-align: center;
+    padding-bottom: 15px;
+  }
+  
+  .schedule-header h2 {
+    font-size: 18px;
+    color: #363B64;
+    font-weight: bold;
+  }
+  
+  .schedule-header p {
+    font-size: 14px;
+    color: #9b9b9b;
+  }
+  
+  /* Schedule List */
+  .schedule-list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .schedule-card {
+    display: flex;
+    align-items: center;
+    background: #ffffff;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    position: relative;
+    overflow: hidden;
+  }
+  
+  /* Left Border Color */
+  .left-border {
+    width: 8px;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+  }
+  
+  /* Content */
+  .schedule-content {
+    margin-left: 15px;
+    flex-grow: 1;
+  }
+  
+  .schedule-content h3 {
+    font-size: 16px;
+    color: #363B64;
+    font-weight: bold;
+  }
+  
+  .schedule-content .subject {
+    font-size: 14px;
+    color: #9b9b9b;
+  }
+  
+  /* Meta Info (Date & Time) */
+  .schedule-meta {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    gap: 5px;
+    margin-top: 15px;
+  }
+  
+  .schedule-meta span {
+    font-size: 12px;
+    color: #646464;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+  
+  .icon {
+    font-size: 14px;
+    color: #ff6b6b;
+  }
+  
+  /* Circular Avatar */
+  .circle {
+    width: 30px;
+    height: 30px;
+    background: rgba(138, 128, 255, 0.3);
+    border-radius: 50%;
+    position: absolute;
+    right: 15px;
+  }
+  
+  /* View More Button */
+  .view-more-btn {
+    width: 100%;
+    background: #5a4ae3;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 10px;
+    border: none;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .view-more-btn:hover {
+    background: #4a3acb;
+  }
+  

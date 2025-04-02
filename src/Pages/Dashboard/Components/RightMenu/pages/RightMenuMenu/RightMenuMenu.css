@@ -1,0 +1,43 @@
+.rightmenumenu-parent{
+    display: flex;
+    width: 250px;
+    justify-content: space-between;  
+    /* border: 1px solid black; */
+    align-items: center;
+}
+
+.rightmenumenu-notification{
+    width: 9%;
+    /* border: 1px solid black; */
+}
+.rightmenumenu-notification img{
+    width: 100%;
+}
+
+.rightmenumenu-setting{
+    width: 10%;
+    /* border: 1px solid black; */
+}
+.rightmenumenu-setting img{
+    width: 100%;
+    /* border: 1px solid black; */
+}
+
+.rightmenumenu-text{
+    width: 30%;
+    /* border: 1px solid black; */
+}
+.rightmenumenu-text b{
+    color: #303972;
+    /* border: 1px solid black; */
+}
+
+.rightmenumenu-placeholder{
+   width: 60px;
+   height: 60px;
+    background-color: #C1BBEB;
+    border-radius: 50%;
+    /* padding: 1px; */
+    /* height: 8.5vh; */
+    /* border: 1px solid black; */
+}

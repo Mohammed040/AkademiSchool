@@ -1,0 +1,20 @@
+.dashboard-school-calender{
+    width: 48%;
+    /* border: 1px solid black; */
+    background-color: white;
+    color: #303972;
+    padding: 20px 50px;
+    padding-bottom: 0px;
+    border-radius: 20px;
+}
+.dashboard-school-calender h2{
+    margin-bottom: 20px;
+}
+.dashboard-school-calender .MuiDateCalendar-root{
+    width: 100%;
+    /* height: 500px; */
+    /* border: 1px solid black; */
+}.dashboard-school-calender .MuiPickersFadeTransitionGroup-root{
+    /* width: 80%; */
+    font-size: 20px;
+}

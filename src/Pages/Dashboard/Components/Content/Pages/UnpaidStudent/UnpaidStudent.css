@@ -1,0 +1,131 @@
+/* Student Container */
+.unpaidStudent-container {
+  width: 100%;
+  /* margin: auto; */
+  margin-top: 50px;
+  padding: 20px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Header */
+.unpaidStudent-container h2 {
+  font-size: 24px;
+  color: #303972;
+  /* border: 1px solid black; */
+}
+
+/* Student List */
+.unpaidStudent-container .student-list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+/* Student Card */
+.unpaidStudent-container .student-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px;
+  border-radius: 10px;
+  background: #f8f9fc;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Student Info */
+.unpaidStudent-container .student-info {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.unpaidStudent-container .student-avatar {
+  font-size: 40px;
+  color: #a29bfe;
+}
+
+.unpaidStudent-container .student-name {
+  font-weight: bold;
+  color: #303972;
+}
+
+.unpaidStudent-container .student-id {
+  color: #6c5ce7;
+}
+
+/* Class Info */
+.unpaidStudent-container .student-class {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.unpaidStudent-container .student-class div{
+    display: flex;
+    flex-direction: column;
+}
+.unpaidStudent-container .student-class div span{
+    color: #A098AE;
+}
+.unpaidStudent-container .class-icon {
+  font-size: 24px;
+  color: #ff7675;
+  /* border: 1px solid black; */
+}
+.unpaidStudent-container .student-class strong{
+    color: #303972;
+    /* background-color: red; */
+}
+
+/* Fee */
+.unpaidStudent-container .student-fee span {
+  font-size: 18px;
+  font-weight: bold;
+  color: #303972;
+}
+
+/* Actions */
+.unpaidStudent-container .student-actions {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.unpaidStudent-container .student-actions span{
+    cursor: pointer;
+}
+
+.unpaidStudent-container .print-icon {
+  font-size: 20px;
+  color: #636e72;
+  cursor: pointer;
+}
+
+/* Pagination */
+.unpaidStudent-container .pagination {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.unpaidStudent-container .pagination button {
+  border: none;
+  background: rgb(240, 160, 160);
+  font-size: 16px;
+  cursor: pointer;
+  padding: 8px 12px;
+  border-radius: 50%;
+  transition: 0.3s;
+}
+
+.unpaidStudent-container .pagination button:hover {
+  background: #6c5ce7;
+  color: white;
+}
+
+.unpaidStudent-container .pagination .active {
+  background: #6c5ce7;
+  color: white;
+}
